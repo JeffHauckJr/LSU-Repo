@@ -1,0 +1,35 @@
+.red {
+    color: red;
+    font-family: 'Yusei Magic';
+    font-size: 20px;
+}
+.orange {
+    color: orange;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+.steelblue {
+    color: steelblue;
+    font-family: 'Lobster';
+    font-size: 1in;
+}
+.grey {
+    color: grey;
+    font-family: cursive;
+    font-size: 0.5in;
+}   
+.maroon {
+    color: maroon;
+    font-family: monospace;
+    font-size: 25px;
+}
+.blue {
+    color: blue;
+    font-family: 'Yusei Magic';
+    font-size: 40px;
+}
+.purple {
+    color: purple;
+    font-family: initial;
+    font-size: 200px;
+}

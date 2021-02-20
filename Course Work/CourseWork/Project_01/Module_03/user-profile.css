@@ -1,0 +1,43 @@
+.user-profile {
+    background-color:grey;
+    width: 50%;
+    margin-left: 25%;
+}
+.name {
+    position: relative;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.avatar {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    border-radius: 50%;
+}
+.right {
+    position: absolute;
+    right: 0;
+    margin-bottom: 50%;
+    margin-left: 50%;
+    background-color: lightslategrey;
+}
+.content {
+    background-color:lightslategrey;
+    position: relative;
+    height: 500px;
+}
+.headline .avatarname.location {
+    background-color: grey;
+}
+.left {
+    position:absolute;
+    left: 10;
+    margin-right: 50%;
+    background-color: lightslategrey;
+}
+.bottom-border {
+    border-bottom: solid;
+}
+body {
+    background-color: lightyellow;
+}

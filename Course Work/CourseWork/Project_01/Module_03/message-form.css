@@ -1,0 +1,31 @@
+* {
+    padding-left: 10px;
+}
+.message-form {
+    background-color: grey;
+    border: solid;
+    width: 480px;
+    margin-left: 37%;
+    position: relative;
+    font-family: 'Material Icon';
+    height: 400px;
+    position: relative;
+}
+#message-title {
+    padding-left: 0;
+    display: block;
+}
+.message-content {
+    position: absolute;
+    left: 0;
+    top: auto;
+}
+.message-form-actions {
+    position: absolute;
+    border: none;
+    padding: 50px;
+    padding-left: 200px;
+}
+button {
+    background-color: steelblue;
+}

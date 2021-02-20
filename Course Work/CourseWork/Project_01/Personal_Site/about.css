@@ -1,0 +1,47 @@
+.h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'times new roman';
+}
+aside {
+    font-size: 1in;
+    border-bottom: solid;
+}
+.rgb {
+    float: left;
+    width: 220px;
+    height: 220px;
+    border-radius: 25%;
+    border: solid;
+    overflow: auto;
+}
+.p1 {
+    font-size: 25px;
+}
+.gaming {
+    width: 90%;
+    margin-left: 65px;
+    background-color: #eee;
+    padding: 10px;
+    display: inline-block;
+    border: solid;
+}
+.sports {
+    width: 90%;
+    margin-left: 65px;
+    background-color: #eee;
+    padding: 10px;
+    display: inline-block;
+    border: solid;
+}
+.sports img {
+    float: left;
+    width: 220px;
+    height: 220px;
+    border-radius: 25%;
+    border: solid;
+    overflow: auto;
+}
+.p2 {
+    font-size: 25px;
+}

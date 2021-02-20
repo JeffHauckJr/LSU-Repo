@@ -1,0 +1,23 @@
+article {
+    width: 480px;
+    margin: 0 auto;
+    background-color: #eee;
+    padding: 10px;
+}
+article img {
+    float: right;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+  }
+  body {
+    background-color: #222;
+  }
+  a {
+      border: none;
+      color: #611;
+  }
+  a:hover {
+    text-underline-position: below;
+    color: #cf8;
+  }

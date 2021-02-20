@@ -1,0 +1,13 @@
+h1 {
+    font-size: 65px;
+}
+.homeintro {
+    font-size: 50px;
+}
+.quote {
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 65px;
+    margin-left: 5in;
+    margin-right: 5in;
+}
