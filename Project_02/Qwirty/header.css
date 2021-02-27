@@ -1,0 +1,65 @@
+.main-nav {
+    display: flex;
+    background-color: #255;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+.sub-nav {
+    display: flex;
+}
+.short-width {
+    display: none;
+}
+.full-width {
+    display: flex;
+}
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.header-links {
+    padding: 10px;
+    border-right: black solid 1px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.company-name {
+    font-size: 45px;
+    flex: 1;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+ul {
+    list-style: none;
+}
+.search-form {
+    flex: 4;
+    margin-top: 10px;
+}
+input {
+    width: 75%;
+}
+.credit-offer {
+    border: solid transparent;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    height: 50%;
+    margin-top: 15px;
+}
+.nav-list li:last-of-type a {
+    border-right: none;
+    margin-right: 0;
+}
+@media screen and (min-width: 768px) {
+    .short-width {
+        display: flex;
+    }
+    .full-width {
+        display: none;
+    }
+}

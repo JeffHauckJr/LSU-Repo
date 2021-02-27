@@ -1,0 +1,102 @@
+.navbar {
+    background-color: steelblue;
+    width: 50px;
+    height: 100vh;
+    /* vh = view height */
+    flex: 1 0 5rem;
+    /* rem is multiplier to root element// html tag  basically 5 * 16 wich is base font size of website*/
+
+}
+.main {
+    padding: 10px;
+    margin-left: 3rem;
+}
+body {
+    font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+}
+.blue, .red, .green {
+    height: 50px;
+    width: 100%;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+.red {
+    background-color: red;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+svg {
+    width: 40px;
+
+}
+.link-text {
+    display: none;
+    text-decoration: none;
+    color: white;
+}
+.navcontainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+.navlink {
+    margin-bottom: 2rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.navlink:last-child {
+    margin-top: auto;
+}
+.link-text:hover {
+    color: #ff5555;
+}
+.navlink:hover svg {
+    fill: #ff5555;
+}
+.navlink:hover .link-text {
+    color: #ff5555;
+}
+/* LArge Screen */
+@media screen and (min-width: 600px) {
+    .navcontainer:hover {
+        background-color: black;
+        width: 16rem;
+        display: flex;
+        align-items: flex-start;
+    }
+    .navcontainer:hover .link-text {
+        display: inline;
+    }
+}
+
+/*small screen */
+@media screen and (max-width: 600px) {
+    body {
+        flex-direction: column-reverse;
+    }
+    .navbar {
+        position: fixed;
+        bottom: 0;
+        width: 100vh;
+        height: 5rem;
+    }
+    .navcontainer {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #logout {
+        margin-top: 0%;
+    }
+
+}

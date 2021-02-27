@@ -1,0 +1,26 @@
+.categories {
+    display: flex;
+    flex: 256px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.navlink {
+    margin-bottom: 20px;
+    font-family: 'Dosis';
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #255;
+    padding: 10px;
+    justify-content: flex-start;
+    width: 200px;
+}
+.linkname {
+    color: white;
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+.navlink:hover {
+    box-shadow: 0 2px 5px -2px black;
+}
